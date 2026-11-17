@@ -16,7 +16,7 @@ The product source is private.
 3. Open Tuile from Applications.
 
 tuile needs a Mac with Apple silicon and macOS 13 or later.
-The app is signed and notarized by Apple, so it opens without a warning.
+The app is signed and notarized.
 It checks for a new version every four hours and installs it when you click **Update ready** or next quit.
 
 There is no download for Intel Macs, Linux or Windows yet.
@@ -36,13 +36,12 @@ The plugin lives in [claude-plugin](claude-plugin).
 
 ## The first run
 
-The first time you open tuile it asks three things:
+1. At **What do you want to work on today?**, use the folder button to choose a folder or create a project.
+2. Type your first request and press Enter, or click **Skip for now** to look around.
+3. Sign in with the AI provider you already use or enter an API key, then click **Continue**.
+   You can also skip sign-in and connect an AI later.
 
-1. **Set up this Mac.** tuile checks for its `tuile` command, Apple's command line tools and Pi, the agent it runs, and adds what is missing.
-2. **Open your first workspace.** Choose a folder, usually a project's Git repository. Setup writes nothing into it.
-3. **Connect the AI you already use.** Pick a provider and sign in, or paste an API key.
-
-Then add a task, select it and press `a` to hand it to an agent.
+Once you’ve connected an AI, add a task, select it and press `a` to hand it to an agent.
 When the agent has a question or a result to review, it lands in the Inbox.
 
 The [user guide](https://tuile.dev/docs/) covers the rest, starting with [Get started](https://tuile.dev/docs/get-started/).
